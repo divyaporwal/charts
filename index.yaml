@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-09-29T17:06:20.065354-05:00"
+    dependencies:
+    - name: minio
+      repository: https://helm.min.io/
+      tags:
+      - minio
+      - local-storage
+      version: 7.0.2
+    description: A Helm chart for Kubernetes
+    digest: 8a6d43ad471489d0db61eee6f2e4540abd1652eac685f975021df69d822d0f8c
+    name: hello-world
+    type: application
+    urls:
+    - hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-09-29T17:06:20.041641-05:00"
